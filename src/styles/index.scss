@@ -1,13 +1,55 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: #8d8d92;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#app {
+    display: flex;
+    justify-content: center;
+    color: #36413e;
+}
 
-*/
+ul {
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.playlist,
+.player  {
+    border-radius: 4px;
+    background-color: #fffffa;    
+    box-shadow: 8px 8px 8px 8px grey
+}
+
+.player {
+    padding: 8px;
+    background-color: #804e49;
+}
+
+.title {
+    padding: 12px;
+}
+
+li:hover {
+    background-color: #8c9a9e;
+}
+
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.mysongs {
+    justify-content: center;
+}
